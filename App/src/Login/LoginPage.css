@@ -1,0 +1,141 @@
+body {
+  background-color: #f2f2f2;
+}
+.background-page {
+  background-image: url('bj1.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+#testLoginHeader {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #9e5c5c;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: transparent;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center; /* Center the text horizontally */
+
+  /* Hover effect */
+  cursor: pointer;
+}
+ 
+
+
+
+#testLoginHeader:hover {
+  color: white; /* Change the color on hover */
+}
+
+h1 {
+  font-size: 5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: blue; /* A vibrant color */
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* A more pronounced text shadow */
+  margin-bottom: 20px;
+  letter-spacing: 2px; /* Add letter spacing for style */
+  text-transform: uppercase;
+  margin-left: 700px; /* Adjust the margin-left value as needed */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+.login-container {
+  width: 45%;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+ 
+  background-size: cover;
+  background-position: center;
+  
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto; /* Add auto margin to center the container */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-heading {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #555;
+}
+.image-container {
+  width: 45%;
+}
+.image {
+  width: 100%;
+  margin: 10px 0;
+}
+#signinbtn {
+  background-color: #dc3545;
+  color: #fff; 
+  border-color:rgb(153, 6, 6); ;
+}
+#registerbtn {
+  background-color: #dc3545;
+  color: #fff; 
+  border-color:rgb(153, 6, 6); ;
+}
+
+.hidden {
+  display: none;
+}
+.signuplink {
+  color : #dc3545 !important;
+}
+.signuplink a{
+  color : #dc3545 !important;
+}
+
+.home-link {
+  color: #8B4513; /* Brown color for the link text */
+  text-decoration: none; /* Remove the underline from the link */
+  font-weight: bold; /* Make the link text bold */
+  margin-top: 10px; /* Adjust the top margin for spacing */
+  display: block; /* Display the link as a block element for proper spacing */
+}
+
+.home-link:hover {
+  color: #A0522D; /* Change link color on hover */
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Media for phones */
+
+@media screen and (max-width:600px) {
+  .image-container{
+      display:none;
+  }
+  .login-container{
+      width:100%;
+  }
+}
+
